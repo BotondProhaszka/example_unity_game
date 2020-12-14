@@ -216,6 +216,8 @@ GameObject:
   - component: {fileID: 790248017}
   - component: {fileID: 790248019}
   - component: {fileID: 790248020}
+  - component: {fileID: 790248021}
+  - component: {fileID: 790248016}
   m_Layer: 0
   m_Name: Square (3)
   m_TagString: Squares
@@ -223,6 +225,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &790248016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790248015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 173a96546741b0b45a1a227bc3f91f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &790248017
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -324,6 +338,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &790248021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790248015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07bcd3fe601895b4193811e6a1750f9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: -8.5
+  maxX: 8.5
+  minY: -4.6
+  maxY: 4.6
+  speed: 2
 --- !u!1 &1051917643
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,6 +367,8 @@ GameObject:
   - component: {fileID: 1051917645}
   - component: {fileID: 1051917647}
   - component: {fileID: 1051917648}
+  - component: {fileID: 1051917649}
+  - component: {fileID: 1051917644}
   m_Layer: 0
   m_Name: Square (5)
   m_TagString: Squares
@@ -343,6 +376,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1051917644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051917643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 173a96546741b0b45a1a227bc3f91f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1051917645
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -444,6 +489,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1051917649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051917643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07bcd3fe601895b4193811e6a1750f9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: -8.5
+  maxX: 8.5
+  minY: -4.6
+  maxY: 4.6
+  speed: 2
 --- !u!1 &1232782047
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,6 +518,8 @@ GameObject:
   - component: {fileID: 1232782049}
   - component: {fileID: 1232782051}
   - component: {fileID: 1232782052}
+  - component: {fileID: 1232782053}
+  - component: {fileID: 1232782048}
   m_Layer: 0
   m_Name: Square (2)
   m_TagString: Squares
@@ -463,6 +527,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1232782048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232782047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 173a96546741b0b45a1a227bc3f91f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1232782049
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -564,6 +640,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1232782053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232782047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07bcd3fe601895b4193811e6a1750f9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: -8.5
+  maxX: 8.5
+  minY: -4.6
+  maxY: 4.6
+  speed: 2
 --- !u!1 &1875129480
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +669,8 @@ GameObject:
   - component: {fileID: 1875129482}
   - component: {fileID: 1875129484}
   - component: {fileID: 1875129485}
+  - component: {fileID: 1875129486}
+  - component: {fileID: 1875129481}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Squares
@@ -583,6 +678,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1875129481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875129480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 173a96546741b0b45a1a227bc3f91f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1875129482
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -684,6 +791,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1875129486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875129480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07bcd3fe601895b4193811e6a1750f9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: -8.5
+  maxX: 8.5
+  minY: -4.6
+  maxY: 4.6
+  speed: 2
 --- !u!1 &1964085494
 GameObject:
   m_ObjectHideFlags: 0
@@ -696,6 +820,8 @@ GameObject:
   - component: {fileID: 1964085496}
   - component: {fileID: 1964085498}
   - component: {fileID: 1964085499}
+  - component: {fileID: 1964085500}
+  - component: {fileID: 1964085495}
   m_Layer: 0
   m_Name: Square
   m_TagString: Squares
@@ -703,6 +829,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1964085495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964085494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 173a96546741b0b45a1a227bc3f91f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1964085496
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -804,6 +942,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1964085500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964085494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07bcd3fe601895b4193811e6a1750f9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: -8.5
+  maxX: 8.5
+  minY: -4.6
+  maxY: 4.6
+  speed: 2
 --- !u!1 &2029816755
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,6 +971,8 @@ GameObject:
   - component: {fileID: 2029816757}
   - component: {fileID: 2029816759}
   - component: {fileID: 2029816760}
+  - component: {fileID: 2029816761}
+  - component: {fileID: 2029816756}
   m_Layer: 0
   m_Name: Square (4)
   m_TagString: Squares
@@ -823,6 +980,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2029816756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029816755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 173a96546741b0b45a1a227bc3f91f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &2029816757
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -924,3 +1093,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2029816761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029816755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07bcd3fe601895b4193811e6a1750f9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: -8.5
+  maxX: 8.5
+  minY: -4.6
+  maxY: 4.6
+  speed: 2
