@@ -878,7 +878,7 @@ MonoBehaviour:
   minSpeed: 0.75
   maxSpeed: 10
   speed: 0.75
-  restartPanel: {fileID: 0}
+  restartPanel: {fileID: 544671968}
 --- !u!1 &1232782047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,7 +1033,7 @@ MonoBehaviour:
   minSpeed: 0.75
   maxSpeed: 10
   speed: 0.75
-  restartPanel: {fileID: 0}
+  restartPanel: {fileID: 544671968}
 --- !u!1 &1875129480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,7 +1188,7 @@ MonoBehaviour:
   minSpeed: 0.75
   maxSpeed: 10
   speed: 0.75
-  restartPanel: {fileID: 0}
+  restartPanel: {fileID: 544671968}
 --- !u!1 &1964085494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1343,4 +1343,4 @@ MonoBehaviour:
   minSpeed: 0.75
   maxSpeed: 10
   speed: 0.75
-  restartPanel: {fileID: 0}
+  restartPanel: {fileID: 544671968}
