@@ -10,10 +10,16 @@ public class RanPatrol : MonoBehaviour
     public float maxX;
     public float minY;
     public float maxY;
+
+    public float secondsToMaxDif;
+
+    public float minSpeed;
+    public float maxSpeed;
     public float speed;
 
     private Vector2 targetPosition;
 
+    public GameObject restartPanel;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +32,7 @@ public class RanPatrol : MonoBehaviour
     {
         if ((Vector2)transform.position != targetPosition)
         {
+            speed = Mathf.Lerp(minSpeed, maxSpeed, getDifficultyPercent());
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
         }
         else
@@ -46,7 +53,12 @@ public class RanPatrol : MonoBehaviour
     {
         if (collision.tag == "Squares")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            restartPanel.SetActive(true);
         }
+    }
+
+    private float getDifficultyPercent()
+    {
+        return Mathf.Clamp01(Time.timeSinceLevelLoad / secondsToMaxDif);
     }
 }

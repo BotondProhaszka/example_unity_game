@@ -9,5 +9,14 @@ public class GameMaster : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
+    public void restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void goToMainMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 
 }
