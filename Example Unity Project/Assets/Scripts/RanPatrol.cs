@@ -3,20 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class RandomPatrol : MonoBehaviour
+
+public class RanPatrol : MonoBehaviour
 {
     public float minX;
     public float maxX;
     public float minY;
     public float maxY;
-
-    public float minSpeed;
-    public float maxSpeed;
     public float speed;
 
-    public float secondsToMaxDif;
-
-    Vector2 targetPosition;
+    private Vector2 targetPosition;
 
 
     // Start is called before the first frame update
@@ -30,7 +26,6 @@ public class RandomPatrol : MonoBehaviour
     {
         if ((Vector2)transform.position != targetPosition)
         {
-            speed = Mathf.Lerp(minSpeed, maxSpeed, getDifPercent());
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
         }
         else
@@ -49,17 +44,9 @@ public class RandomPatrol : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Squares")
+        if (collision.tag == "Squares")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
-
-
-    private float getDifPercent()
-    {
-        return Mathf.Clamp01(Time.timeSinceLevelLoad / secondsToMaxDif);
-    }
-
-
 }
